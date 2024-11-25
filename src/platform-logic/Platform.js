@@ -178,6 +178,7 @@ class Platform extends React.Component {
                     }),
                 })
             );
+            console.log(err, response);
             if (err || !response) {
                 toast.error(
                     `Error setting lesson for assignment "${this.user.resource_link_title}"`
