@@ -264,7 +264,7 @@ class Problem extends React.Component {
             const objectives = Object.keys(lesson.learningObjectives);
             objectives.unshift(0);
             let numberOfCompletedSteps = newCompletedSteps.size;
-            let score = (numberOfCompletedSteps * 100) / 22;
+            let score = (numberOfCompletedSteps * 100) / 1;
             score /= 100
 
             const relevantKc = {};
