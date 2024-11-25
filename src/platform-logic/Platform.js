@@ -155,7 +155,7 @@ class Platform extends React.Component {
 
     async selectLesson(lesson, updateServer=true) {
         const context = this.context;
-        console.debug("lesson: ", context)
+        console.debug("lesson: ", lesson)
         console.debug("update server: ", updateServer)
         console.debug("context: ", context)
         if (!this._isMounted) {
