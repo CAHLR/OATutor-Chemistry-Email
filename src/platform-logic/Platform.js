@@ -190,7 +190,7 @@ class Platform extends React.Component {
                         case 400:
                             const responseText = await response.text();
                             let [message, ...addInfo] = responseText.split("|");
-                            console.log(addInfo)
+                            console.log(responseText)
                             if (
                                 Array.isArray(addInfo) &&
                                 addInfo[0].length > 1
